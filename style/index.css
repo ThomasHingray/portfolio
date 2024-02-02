@@ -1,0 +1,64 @@
+.section-presentation {
+    display:flex;
+    width:50%;
+    margin:auto;
+    margin-top:80px;
+    background:linear-gradient(67.5deg,#8C1822,#F24444);
+    padding:60px;
+    border-radius:200px 25px;
+}
+
+.section-presentation img{
+    height:200px;
+    width:200px;
+    object-fit: cover;
+    border-radius:150px;
+}
+
+.section-peluches {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:80px;
+    background:linear-gradient(67.5deg,#F24444,#F2AFA0);
+}
+
+.section-peluches h2{
+    padding-bottom: 30px;
+}
+
+.section-peluches img,
+.section-costumes img,
+.section-spectacles img{
+    padding:80px;
+    width: 400px;
+    border-radius: 150px;
+}
+
+.section-peluches img:hover,
+.section-costumes img:hover,
+.section-spectacles img:hover{
+    filter:brightness(70%);
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.section-peluches div,
+.section-costumes div,
+.section-spectacles div{
+    max-width:700px;
+}
+
+.section-spectacles {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:80px;
+    background:linear-gradient(67.5deg,#F24444,#F2AFA0);
+}
+
+.section-costumes{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
