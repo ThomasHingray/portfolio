@@ -1,14 +1,35 @@
 
-.conteneur-flex{
+.creations{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
     flex-basis:30%;
+    justify-content:center;
+}
+
+.choly-knight{
+    display:grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    background: linear-gradient(#8C1822,#F24444)
+}
+
+.creations{
+    background:linear-gradient(#201B26,#8C1822)
+}
+
+.titre-grid {
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 .images-peluches img{
     width:25em;
     margin: 15px;
     text-align:center;
-    
+    border-radius:150px;
+}
+
+h2 {
+    text-align: center;
 }
