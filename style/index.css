@@ -24,7 +24,8 @@
     border-radius:150px;
 }
 
-.section-peluches {
+.section-peluches,
+.section-spectacles {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +41,7 @@
 .section-costumes img,
 .section-spectacles img{
     padding:80px;
-    width: 400px;
+    max-width: 400px;
     border-radius: 150px;
 }
 
@@ -55,19 +56,35 @@
 .section-peluches div,
 .section-costumes div,
 .section-spectacles div{
-    max-width:700px;
-}
-
-.section-spectacles {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:80px;
-    background:linear-gradient(67.5deg,#F24444,#F2AFA0);
+    width:50%;
 }
 
 .section-costumes{
     display:flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width:996px){
+    section {
+        flex-direction: column;
+        gap:30px;
+        text-align: center;
+        padding:15px;
+    }
+
+    .section-presentation {
+        text-align:justify;
+    }
+    
+    .section-peluches,
+    .section-spectacles {
+        flex-direction: column-reverse;
+    }
+
+    section  a  img {
+        width:100%;
+        padding:0;
+        flex-shrink: 1;
+    }
 }

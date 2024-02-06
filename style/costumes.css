@@ -35,3 +35,9 @@ img{
   text-align:left;
 }
 
+@media screen and (max-width:996px){
+  .contenu-mes-costumes {
+    grid-template-columns: 1fr;
+    gap:15px;
+  }
+}
