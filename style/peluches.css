@@ -1,21 +1,16 @@
 
 .creations{
     display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    flex-basis:30%;
     justify-content:center;
+    background:linear-gradient(#201B26,#8C1822);
 }
 
 .choly-knight{
     display:grid;
     grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto auto;
-    background: linear-gradient(#8C1822,#F24444)
-}
-
-.creations{
-    background:linear-gradient(#201B26,#8C1822)
+    grid-template-columns: 1fr 1fr 1fr;
+    background: linear-gradient(#8C1822,#F24444);
+    justify-content: center;
 }
 
 .titre-grid {
@@ -23,11 +18,31 @@
     grid-column-end: 4;
 }
 
-.images-peluches img{
+.images-peluches img,
+.images-peluches-creation img{
     width:25em;
     margin: 15px;
-    text-align:center;
     border-radius:150px;
+}
+
+.images-peluches-creation{
+    position: relative;
+}
+
+.inspirations-peluches{
+    position:absolute;
+    top:0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity:0;
+    transition:0.5s;
+}
+
+.images-peluches-creation:hover .inspirations-peluches{
+    opacity:1;
+    transition: 1s;
 }
 
 h2 {

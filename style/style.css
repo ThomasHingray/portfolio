@@ -11,6 +11,7 @@ font-family: 'Montserrat', sans-serif;**/
     }
 
     h1 {
+        margin: 80px 0;
         font-size:3.5em;
         text-align:center;
         font-family: 'Manrope', sans-serif;
@@ -19,19 +20,29 @@ font-family: 'Montserrat', sans-serif;**/
 
     h2 {
         font-size:2em;
-        padding-bottom:20px;
+        margin:40px;
     }
 
     header{
         background:linear-gradient(#535D73,#201B26);
         color:white;
         padding:30px 20px;
-        
+    }
+
+    footer{
+    margin-top:30px;
+    background:linear-gradient(#201B26,#F2AFA0);
+    color:white;
+    padding:30px 20px;
     }
 
     nav{
         display:flex;
         justify-content: space-around;
+    }
+
+    nav img{
+        width:3em;
     }
 
     nav a{
@@ -43,3 +54,4 @@ font-family: 'Montserrat', sans-serif;**/
         color:white;
         text-decoration:none;
     }
+
