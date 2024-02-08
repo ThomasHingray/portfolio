@@ -41,7 +41,7 @@
 .section-costumes img,
 .section-spectacles img{
     padding:80px;
-    max-width: 400px;
+    width: 400px;
     border-radius: 150px;
 }
 
@@ -64,6 +64,19 @@
     align-items: center;
     justify-content: center;
 }
+
+.section-peluches > div a {
+    background-color: #F2AFA0;
+    padding:3px 5px;
+    border-radius:5px;
+}
+
+.section-peluches > div a:hover {
+    font-size:1.2em;
+    font-weight:800;
+    transition:0.3s ease;
+}
+
 
 @media screen and (max-width:996px){
     section {

@@ -61,6 +61,7 @@ font-family: 'Montserrat', sans-serif;**/
         header,
         footer {
             max-width: 1000px;
+            padding-top: 20px;
         }
 
         nav {
